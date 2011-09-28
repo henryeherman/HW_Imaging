@@ -1,0 +1,208 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05B7751814329BF300D95905 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 05B7751714329BF300D95905 /* main.c */; };
+		05B7751A14329BF300D95905 /* EE211A_hws.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 05B7751914329BF300D95905 /* EE211A_hws.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		05B7751114329BF300D95905 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				05B7751A14329BF300D95905 /* EE211A_hws.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		05B7751314329BF300D95905 /* EE211A_hws */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = EE211A_hws; sourceTree = BUILT_PRODUCTS_DIR; };
+		05B7751714329BF300D95905 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		05B7751914329BF300D95905 /* EE211A_hws.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = EE211A_hws.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05B7751014329BF300D95905 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05B7750814329BF300D95905 = {
+			isa = PBXGroup;
+			children = (
+				05B7751614329BF300D95905 /* EE211A_hws */,
+				05B7751414329BF300D95905 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		05B7751414329BF300D95905 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05B7751314329BF300D95905 /* EE211A_hws */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05B7751614329BF300D95905 /* EE211A_hws */ = {
+			isa = PBXGroup;
+			children = (
+				05B7751714329BF300D95905 /* main.c */,
+				05B7751914329BF300D95905 /* EE211A_hws.1 */,
+			);
+			path = EE211A_hws;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05B7751214329BF300D95905 /* EE211A_hws */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05B7751D14329BF300D95905 /* Build configuration list for PBXNativeTarget "EE211A_hws" */;
+			buildPhases = (
+				05B7750F14329BF300D95905 /* Sources */,
+				05B7751014329BF300D95905 /* Frameworks */,
+				05B7751114329BF300D95905 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EE211A_hws;
+			productName = EE211A_hws;
+			productReference = 05B7751314329BF300D95905 /* EE211A_hws */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05B7750A14329BF300D95905 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = UCLA;
+			};
+			buildConfigurationList = 05B7750D14329BF300D95905 /* Build configuration list for PBXProject "EE211A_hws" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 05B7750814329BF300D95905;
+			productRefGroup = 05B7751414329BF300D95905 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05B7751214329BF300D95905 /* EE211A_hws */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05B7750F14329BF300D95905 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05B7751814329BF300D95905 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		05B7751B14329BF300D95905 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		05B7751C14329BF300D95905 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		05B7751E14329BF300D95905 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		05B7751F14329BF300D95905 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05B7750D14329BF300D95905 /* Build configuration list for PBXProject "EE211A_hws" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05B7751B14329BF300D95905 /* Debug */,
+				05B7751C14329BF300D95905 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05B7751D14329BF300D95905 /* Build configuration list for PBXNativeTarget "EE211A_hws" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05B7751E14329BF300D95905 /* Debug */,
+				05B7751F14329BF300D95905 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05B7750A14329BF300D95905 /* Project object */;
+}
